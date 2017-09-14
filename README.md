@@ -16,8 +16,10 @@
 This project will contain the file structure to start a new project.
 
 ## Dependencies
-
-[![Bootstrap 3.3.7](https://getbootstrap.com/assets/brand/bootstrap-solid.svg)](https://getbootstrap.com/docs/3.3/)
+Version 3.3.7
+<a href="https://getbootstrap.com">
+    <img src="https://getbootstrap.com/assets/brand/bootstrap-solid.svg" width=36 height=36>
+</a>
 
 ## Quick start
 
