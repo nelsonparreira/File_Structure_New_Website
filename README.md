@@ -28,7 +28,7 @@ You need to delete the "index.xxx and index-xxxx.xxx" files that you will not ne
 
 
 # File Struture
-<code>
+<pre>
 root/
 ├── Public/
 │    ├── assets/
@@ -80,7 +80,7 @@ root/
 ├── Production/
 ├── Design/
 └──  ?? Assets ??/
-</code>
+</pre>
 
 # DATABASE
 
