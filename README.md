@@ -80,3 +80,22 @@ root/
 ├── Production/
 ├── Design/
 └──  ?? Assets ??/
+
+
+# DATABASE
+
+How to use the token.
+
+1) Check if you have "include_once 'core/controlers/db.controler.php';"
+2) on the file you setup the form, first run the PHP code:
+      2.1 set the token value
+        ```
+          tokenSet()
+        ```
+      2.2 see if exists
+        ```
+          if( tokenExists() ){
+          }  
+        ```
+
+3) And don't forget to put the hiden input on your form.
