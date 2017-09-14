@@ -5,7 +5,6 @@ include_once PATHCOREINCLUDES .'navbar.inc.php';
  ?>
 
 
-
     <!--
     *
     *
@@ -21,6 +20,10 @@ include_once PATHCOREINCLUDES .'navbar.inc.php';
       </div>
 
     </div><!-- /.container -->
+
+
+
+
 
 
 

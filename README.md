@@ -2,7 +2,7 @@
 
 This project will contain the file structure to start a new project.
 
-You need to delete the index files that you will not need
+You need to delete the "index.xxx and index-xxxx.xxx" files that you will not need, keeping only one.
 
 1) index.html  
    - Basic HTML file
@@ -25,3 +25,58 @@ You need to delete the index files that you will not need
   - Bootstrap necessary code is on:
     - /css/
     - /js/
+
+
+# File Struture
+
+root/
+├── Public/
+│    ├── assets/
+│    │    ├── css/
+│    │    │   ├── styles.css
+│    │    │   ├── bootstrap.css
+│    │    │   ├── bootstrap.css.map
+│    │    │   ├── bootstrap.min.css
+│    │    │   ├── bootstrap.min.css.map
+│    │    │   ├── bootstrap-theme.css
+│    │    │   ├── bootstrap-theme.css.map
+│    │    │   ├── bootstrap-theme.min.css
+│    │    │   └── bootstrap-theme.min.css.map
+│    │    ├── js/
+│    │    │   ├── script.js
+│    │    │   ├── bootstrap.js
+│    │    │   └── bootstrap.min.js
+│    │    ├── fonts/
+│    │    │    ├── glyphicons-halflings-regular.eot
+│    │    │    ├── glyphicons-halflings-regular.svg
+│    │    │    ├── glyphicons-halflings-regular.ttf
+│    │    │    ├── glyphicons-halflings-regular.woff
+│    │    │    └── glyphicons-halflings-regular.woff2
+│    │    │    └── images/
+│    │    ├── logo/
+│    │    └── icons/
+│    │
+│    ├── core/
+│    │    ├── functions.php
+│    │    │
+│    │    ├── includes/
+│    │    │   ├── header.inc.php
+│    │    │   ├── nav.inc.php
+│    │    │   └──  footer.inc.php
+│    │    ├── libraries/
+│    │    │   ├── <thirth part libraries>
+│    │    ├── controlers/
+│    │    │   ├── security.controler.php
+│    │    │   └── db.controler.php
+│    │    └── errors/
+│    │        └── 404.php
+│    └── admin/
+│         ├── .htaccess
+│         │
+│         ├── includes/
+│         │   ├── header.admin.php
+│         │   ├── nav.admin.php
+│         │   └── footer.admin.php
+├── Production/
+├── Design/
+└──  ?? Assets ??/
