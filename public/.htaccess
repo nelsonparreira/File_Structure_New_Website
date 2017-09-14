@@ -1,0 +1,15 @@
+
+#
+#
+# Version: 0.1
+# based: PHP security - Codecourse youtube
+#
+#
+# Last Update:
+# date: 12/09/2017
+# Author: Nelson Parreira
+#
+
+
+# Disables the list view (files and directories) on the Apaches webservers.
+Options -Indexes
