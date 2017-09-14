@@ -1,6 +1,25 @@
-# File_Structure_New_Website
+<h3 align="center">File Structure for a New Website</h3>
+
+## Table of content
+
+- [Description](#Description)
+- [Quick start](#Quick-start)
+- [File Struture](#File-Struture)
+- [Dependencies](#Dependencies)
+- [Versioning](#versioning)
+- [Creators](#creators)
+- [Copyright and license](#copyright-and-license)
+
+
+## Description
 
 This project will contain the file structure to start a new project.
+
+## Dependencies
+
+[![Bootstrap 3.3.7](https://getbootstrap.com/assets/brand/bootstrap-solid.svg)](https://getbootstrap.com/docs/3.3/)
+
+## Quick start
 
 You need to delete the "index.xxx and index-xxxx.xxx" files that you will not need, keeping only one.
 
@@ -27,8 +46,8 @@ You need to delete the "index.xxx and index-xxxx.xxx" files that you will not ne
     - /js/
 
 
-# File Struture
-<pre>
+## File Struture
+```
 root/
 ├── Public/
 │    ├── assets/
@@ -80,31 +99,57 @@ root/
 ├── Production/
 ├── Design/
 └──  ?? Assets ??/
-</pre>
+```
 
 # DATABASE
 
 How to use the token.
 
-1) Check if you have "include_once 'core/controlers/db.controler.php';"
-2) on the file you setup the form, first run the PHP code:
-      2.1 set the token value
+1. Check if you have "include_once 'core/controlers/db.controler.php';"
+2. On the file you setup the form, first set the token value:
         ```
           tokenSet()
         ```
-      2.2 see if exists
+3. see if exists
         ```
           if( tokenExists() ){
           }  
         ```
-
-3) And don't forget to put the hidden input on your form.
+4. And don't forget to put the hidden input on your form.
   ```
     <input type="hidden" name="_token" value="<?php echo $_SESSION['_token']; ?>" >
   ```
-
-4) to see the "_token" value:
+5. to see the "_token" value:
   ```
   echo "{$_SESSION['_token']}";
 
   ```
+
+
+
+  ## Versioning
+
+  For transparency into our release cycle and in striving to maintain backward compatibility, File Structure for a New Website is maintained under [the Semantic Versioning guidelines](http://semver.org/). Sometimes we screw up, but we'll adhere to those rules whenever possible.
+
+  <p align=center>  
+    <h4 align=center>Given a version number MAJOR.MINOR.PATCH, increment the:</h4>
+
+    MAJOR version when you make incompatible API changes,
+    MINOR version when you add functionality in a backwards-compatible manner, and
+    PATCH version when you make backwards-compatible bug fixes.
+    Additional labels for pre-release and build metadata are available as extensions to the MAJOR.MINOR.PATCH format.
+  </p>
+
+
+
+  ## Creators
+
+  **Nelson Parreira**
+
+  - <https://github.com/nelsonparreira>
+
+
+
+  ## Copyright and license
+
+  Code and documentation copyright 2017 the [File Structure for a New Website Author](https://github.com/nelsonparreira/File_Structure_New_Website) Code released under the [MIT License](https://github.com/nelsonparreira/File_Structure_New_Website/blob/master/LICENSE. Docs released under [Creative Commons](https://github.com/nelsonparreira/File_Structure_New_Website/blob/master/docs/LICENSE_CC).
