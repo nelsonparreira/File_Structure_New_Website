@@ -28,7 +28,7 @@ You need to delete the "index.xxx and index-xxxx.xxx" files that you will not ne
 
 
 # File Struture
-
+<code>
 root/
 ├── Public/
 │    ├── assets/
@@ -80,7 +80,7 @@ root/
 ├── Production/
 ├── Design/
 └──  ?? Assets ??/
-
+</code>
 
 # DATABASE
 
@@ -98,4 +98,13 @@ How to use the token.
           }  
         ```
 
-3) And don't forget to put the hiden input on your form.
+3) And don't forget to put the hidden input on your form.
+  ```
+    <input type="hidden" name="_token" value="<?php echo $_SESSION['_token']; ?>" >
+  ```
+
+4) to see the "_token" value:
+  ```
+  echo "{$_SESSION['_token']}";
+
+  ```
