@@ -47,35 +47,22 @@ define("DB_NAME", "login");
 *
 *
 * *****************************************************************************
-*                         CSRF - Cross-site Request Forgery
+*                               Avoid SQL Injection
+*                              PDO prepared statements
 * *****************************************************************************
- */
+* https://youtu.be/cgwWpd4SqIM?list=PLfdtiltiRHWFsPxAGO-SVPGhCbCwKWF_N
 
-/**
- * Setup the token value
- *
- * in the Session "_token"
- */
-function tokenSet(){
-    $_SESSION['_token'] = bin2hex(openssl_random_pseudo_bytes(16));
-}
+if (isset($_POST['email'])) {
+  $email = $_POST['email'];
 
-/**
- * Checks if the token exists
- * if not ends the session
- *
- * @return  true
- *   If token exits and are the same as the one generated.
- */
-function tokenExists(){
-  if ($_SERVER['REQUEST_METHOD'] === 'POST'){
-    if ( !isset($_POST['_token']) || ($_POST['_token'] !== $_SESSION['_token']) ) {
-      die('Invalid CSRF token');
-    }
+  $user = $db->prepared("SELECT * FROM users WHERE email = :email")
+
+  $user->execute([
+    'email' => $email;
+  ]);
+
+  if($user->rowCount()){
+    die("Send email");
   }
-  return true;
 }
-
-/**
- * HOW TO USE THE TOKENS
  */

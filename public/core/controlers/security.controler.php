@@ -103,3 +103,54 @@ function setHttpCookie($key,$value,$time){
   $time = strtotime($time);
   setcookie( $key, $value, $time,'/', null, null, true );
 }
+
+
+
+
+/*
+*
+*
+* *****************************************************************************
+*                               USE A TOKEN IN A FORM
+*                         CSRF - Cross-site Request Forgery
+* *****************************************************************************
+* https://youtu.be/j-rQiXYJsH0?list=PLfdtiltiRHWFsPxAGO-SVPGhCbCwKWF_N
+ */
+
+/**
+ * Setup the token value
+ *
+ * in the Session "_token"
+ */
+function tokenSet(){
+    $_SESSION['_token'] = bin2hex(openssl_random_pseudo_bytes(16));
+}
+
+/**
+ * Checks if the token exists
+ * if not ends the session
+ *
+ * @return  true
+ *   If token exits and are the same as the one generated.
+ */
+function tokenExists(){
+  if ($_SERVER['REQUEST_METHOD'] === 'POST'){
+    if ( !isset($_POST['_token']) || ($_POST['_token'] !== $_SESSION['_token']) ) {
+      die('Invalid CSRF token');
+    }
+  }
+  return true;
+}
+//run and get the token
+tokenSet();
+
+
+
+/*
+*
+*
+* *****************************************************************************
+*                         Display ERROS
+* *****************************************************************************
+* https://youtu.be/sLX5ZU40MBI?list=PLfdtiltiRHWFsPxAGO-SVPGhCbCwKWF_N
+ */

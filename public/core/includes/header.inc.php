@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+
+//Development
+  ini_set('display_errors', On);
+/* Prodution
+  ini_set('display_errors', Off);
+  error_reporting(0);
+*/
+?><!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8">

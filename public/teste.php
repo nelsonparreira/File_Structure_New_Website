@@ -52,14 +52,21 @@ if( verifyPass($user_pass, $db_pass) ){
 
 
 
+/*
+*
+*
+* *****************************************************************************
+*                         CSRF - Cross-site Request Forgery
+* *****************************************************************************
+* https://youtu.be/j-rQiXYJsH0?list=PLfdtiltiRHWFsPxAGO-SVPGhCbCwKWF_N
 
 
+$e = tokenExists();
 
-
-setToken();
+if ( $e ) {
 echo "{$_SESSION['_token']}";
-
-
+}
+ */
 
 
 
