@@ -1,7 +1,6 @@
 <?php
-
 //Development
-  ini_set('display_errors', On);
+//  ini_set('display_errors', On);
 /* Prodution
   ini_set('display_errors', Off);
   error_reporting(0);
@@ -16,7 +15,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <link rel="icon" type="image/png" sizes="16x16" href="assets/images/logo/favicon-16x16.png">
+    <link rel="icon" type="image/png" sizes="16x16" href=<?=IMG_LAYOUT_PATH."favicon-16x16.png"?>>
 
     <title>Starter Template for Bootstrap</title>
 

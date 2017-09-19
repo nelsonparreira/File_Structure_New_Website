@@ -5,14 +5,12 @@
                             FOOTER OF THE PAGE
 *********************************************************************************
 **-->
-<div class="container">
+<footer class="container">
   <div class="row">
-    <div class="col-md-12">
-      <hr>
-      <h5 class="text-center">&copy; copyright Nelson Parreira 2017</h5>
-    </div>
-  </div>
-</div>
+    
+
+
+
 
 <!--
 *
@@ -29,5 +27,25 @@
 <script src="assets/js/bootstrap.min.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="assets/js/ie10-viewport-bug-workaround.js"></script>
+<!-- MYSCRIPTS -->
+<script src="assets/js/script.js"></script>
+
+
+
+<!--
+*
+*
+*********************************************************************************
+                                COPYRIGHT
+*********************************************************************************
+**-->
+    <div class="col-md-12">
+      <hr>
+      <p>&copy;<script type="text/javascript">
+              dateYearCopyright();
+            </script> Copyright - All Rights Reserved</p>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

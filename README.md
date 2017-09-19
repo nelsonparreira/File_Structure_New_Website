@@ -38,7 +38,9 @@ Bootstrap  - Version 3.3.7</a>
 ## File Struture
 ```
 root/
-├── Public/
+├── public_html/
+│    ├── .htaccess
+│    ├── index.php
 │    ├── assets/
 │    │    ├── css/
 │    │    │   ├── styles.css
@@ -61,25 +63,39 @@ root/
 │    │    │    ├── glyphicons-halflings-regular.woff
 │    │    │    └── glyphicons-halflings-regular.woff2
 │    │    │    └── images/
-│    │    ├── logo/
-│    │    └── icons/
+│    │    └── images/
+│    │        ├── layout/
+│    │        └── content/
+│    │            └── carousel/
 │    │
-│    ├── core/
-│    │    ├── functions.php
+│    ├── resources/
 │    │    │
 │    │    ├── includes/
-│    │    │   ├── header.inc.php
-│    │    │   ├── nav.inc.php
-│    │    │   └──  footer.inc.php
+│    │    │   ├── config.inc.php
+│    │    │   └── init.inc.php
+│    │    │
+│    │    ├── templates/
+│    │    │   ├── header.temp.php
+│    │    │   ├── nav.temp.php
+│    │    │   └── footer.temp.php
+│    │    │
 │    │    ├── libraries/
-│    │    │   ├── <thirth part libraries>
+│    │    │   └── <thirth party libraries>
+│    │    │
 │    │    ├── controlers/
-│    │    │   ├── security.controler.php
-│    │    │   └── db.controler.php
+│    │    │   ├── email/
+│    │    │   │   └── email.controler.php
+│    │    │   ├── db/
+│    │    │   │   └── db.controler.php
+│    │    │   └── security/
+│    │    │       └── security.controler.php
+│    │    │
+│    │    ├── functions/
+│    │    │   └── functions.php
 │    │    └── errors/
 │    │        └── 404.php
+│    │ 
 │    └── admin/
-│         ├── .htaccess
 │         │
 │         ├── includes/
 │         │   ├── header.admin.php
@@ -87,7 +103,7 @@ root/
 │         │   └── footer.admin.php
 ├── Production/
 ├── Design/
-└──  ?? Assets ??/
+└── Assets/
 ```
 
 # DATABASE
@@ -112,10 +128,68 @@ How to use the token.
         - echo "{$_SESSION['_token']}";
 
 
-  ##Inspiring
+## Inspiring
+
+  Links to inspired stuff(Assets) we can use on a project:
+
+    BOOTSTRAP
+      Headers
+        - <a href="https://tutorialzine.com/2016/09/freebie-5-beautiful-bootstrap-headers">
+          5 Beautiful Bootstrap Headers
+        </a> 
+
+      Footers
+        - <a href="https://tutorialzine.com/2016/10/freebie-5-fantastic-bootstrap-footers">
+        5 Fantastic Bootstrap Footers</a>
+
+        - <a href="https://demo.tutorialzine.com/2015/01/freebie-5-responsive-footer-templates/index.html">
+        5 Responsive Footer Templates</a>
+
+      Carousel
+
+        - <a href="https://codepen.io/andrearufo/pen/rVWpyE">
+          Bootstrap default carousel with swipe and touch gestures</a>
+
+      Forms
+        - <a href="https://demo.tutorialzine.com/2016/11/freebie-3-elegant-bootstrap-forms/">
+        Elegant Bootstrap Forms</a>
+
+      Gallerys
+        - <a href="https://tutorialzine.com/2017/02/freebie-4-bootstrap-galleries">
+          4 Bootstrap Gallery Templates</a>
+      E-commerce
+        - <a href="https://tutorialzine.com/2014/04/responsive-shopping-cart-layout-twitter-bootstrap-3">
+        Responsive Shopping Cart</a>
+    
+    ICONS
+      - <a href="http://themes-pixeden.com/font-demos/7-stroke/index.html">
+        icon font packicon font packicon font pack</a>
+
+      - <a href="https://linearicons.com/free">
+        Linearicons</a>
+
+    FONTS
+
+    CAROUSELS
+      - <a href="https://flickity.metafizzy.co/">
+        Flickity - Touch, responsive, flickable carousels</a>
 
 
-  ## Versioning
+## Logos
+  
+  <a href="https://globalspex.com/logo-dimensions/">Standard Logo Dimensions</a>
+  
+  Dimensions used on this project: 
+    - Favicon 16px X 16px
+    - Logo: 
+        .Horizontal: 250px X 150px
+        .Square: 160px X 160px
+
+    
+
+
+
+## Versioning
 
   For transparency into our release cycle and in striving to maintain backward compatibility, File Structure for a New Website is maintained under [the Semantic Versioning guidelines](http://semver.org/). Sometimes we screw up, but we'll adhere to those rules whenever possible.
 
@@ -131,9 +205,7 @@ How to use the token.
 
 
 
-
-
-  ## Creators
+## Creators
 
   **Nelson Parreira**
 
@@ -141,6 +213,6 @@ How to use the token.
 
 
 
-  ## Copyright and license
+## Copyright and license
 
   Code and documentation copyright 2017 the [File Structure for a New Website Author](https://github.com/nelsonparreira/File_Structure_New_Website) Code released under the [MIT License](https://github.com/nelsonparreira/File_Structure_New_Website/blob/master/LICENSE). Docs released under [Creative Commons](https://github.com/nelsonparreira/File_Structure_New_Website/blob/master/docs/LICENSE_CC).

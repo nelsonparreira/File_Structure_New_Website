@@ -1,0 +1,397 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"padd",
+				"padding-bottom"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"padding-",
+				"padding-top"
+			],
+			[
+				"mag",
+				"margin-bottom"
+			],
+			[
+				"inde",
+				"index-box\t(style.css)"
+			],
+			[
+				"text",
+				"text-center"
+			],
+			[
+				"s",
+				"senhat"
+			],
+			[
+				"u",
+				"usuariot"
+			],
+			[
+				"session",
+				"session_start"
+			],
+			[
+				"me",
+				"method\tAttr"
+			],
+			[
+				"font",
+				"fontSize\tStyle CSS"
+			],
+			[
+				"box",
+				"box2"
+			],
+			[
+				"l",
+				"li\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 354.0,
+		"last_filter": "i",
+		"selected_items":
+		[
+			[
+				"i",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"pac",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Snippet: ",
+				"Snippet: html"
+			],
+			[
+				"Package Control",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 592.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/nelsonparreira/Documents/MampWebsites/001-Australian2017"
+	],
+	"file_history":
+	[
+		"/Users/nelsonparreira/Documents/MampWebsites/File-Structure-New-Website/.gitignore",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/pt/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/es/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/fr/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/pt/voucher.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/fr/voucher.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/voucher-order.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/voucher-term.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/pt/voucher-term.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/fr/voucher-term-fr.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/es/voucher-term.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/pt/voucher-order.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/fr/voucher-order.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/es/voucher-order.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/es/voucher-order-sended.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/fr/voucher-order-sended.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/pt/voucher-order-sended.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/voucher-order-sended.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/es/voucher.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/voucher.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/000-CODE/.gitignore",
+		"/Users/nelsonparreira/Downloads/bootstrap-4-dev/README.md",
+		"/Users/nelsonparreira/Downloads/styles.css",
+		"/Users/nelsonparreira/Documents/MampWebsites/003-Projects/002 - contact-form/contact-form/contact.php",
+		"/Volumes/NO NAME/.bash_profile",
+		"/Users/nelsonparreira/Documents/MampWebsites/000-Training/109-BootStrap-PHP-Login/Aula-01/css/bootstrap.min.css",
+		"/Users/nelsonparreira/Documents/MampWebsites/000-Training/109-BootStrap-PHP-Login/Aula-01/login.php",
+		"/Users/nelsonparreira/Documents/MampWebsites/000-Training/109-BootStrap-PHP-Login/Aula-01/css/signin.css",
+		"/Users/nelsonparreira/Documents/MampWebsites/000-Training/109-BootStrap-PHP-Login/Aula-01/js/ie-emulation-modes-warning.js",
+		"/Users/nelsonparreira/Documents/MampWebsites/000-Training/109-BootStrap-PHP-Login/Aula-01/js/ie10-viewport-bug-workaround.js",
+		"/Users/nelsonparreira/Documents/MampWebsites/000-Training/109-BootStrap-PHP-Login/Aula-01/css/ie10-viewport-bug-workaround.css",
+		"/Users/nelsonparreira/Documents/MampWebsites/JavascriptTraining/JavaScriptMaterials/changeButton1.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/contact_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/contact_form.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/find.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/history.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/map-belval.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/map-fuengirola.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/map-schmiede.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/products.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/terms.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/map-antigua.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/work.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/login.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/job_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/franchise.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/contact.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/contact_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/map-fuengirola.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/contact_form.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/login.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/history.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/work.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/terms.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/products.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/find.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/map-schmiede.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/find.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/find.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/map-pommerloch.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/map-belval.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/map-antigua.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/job_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/franchise.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/fr/contact.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/working-on-it.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/work.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/contact_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/history.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/contact_form.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/terms.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/products.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/map-schmiede.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/map-pommerloch.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/map-fuengirola.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/map-belval.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/map-antigua.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/login.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/job_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/franchise.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/contact.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/contact_form.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/page_template.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/history.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/contact_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/contact.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/assets/js/mapsfreds.js",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/franchise.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/index-new.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/job_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/map-antigua.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/map-belval.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/map-fuengirola.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/map-pommerloch.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/map-schmiede.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/products.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/terms.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/work.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/working-on-it.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/login.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/assets/js/fotorama.js",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/css/style.css",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/css/style.css",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 01/assets/js/test-maps.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 01/assets/js/mapsfreds.js",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/live-view.md",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/pt/map-pommerloch.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/page_template.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/es/css/page_template.css",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/Version 02/assets/js/redirect.js",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/es/index.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/Contact form/form.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/work.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/terms.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/products.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/map-schmiede.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/map-pommerloch.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/map-fuengirola.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/map-belval.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/map-antigua.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/login.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/job_confirmation.html",
+		"/Users/nelsonparreira/Documents/MampWebsites/FredsWebsite2016/pt/index.html"
+	],
+	"find":
+	{
+		"height": 58.0
+	},
+	"find_in_files":
+	{
+		"height": 142.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 33.0
+	},
+	"input":
+	{
+		"height": 53.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "Australian-2017.sublime-project",
+	"replace":
+	{
+		"height": 100.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 272.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

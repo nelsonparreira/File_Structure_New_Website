@@ -1,7 +1,7 @@
 <?php
-include_once 'core/config.core.php';
-include_once PATHCOREINCLUDES .'header.inc.php';
-include_once PATHCOREINCLUDES .'navbar.inc.php';
+include_once 'resources/includes/config.inc.php';
+include_once TEMPLATE_PATH .'header.temp.php';
+include_once TEMPLATE_PATH .'navbar.temp.php';
  ?>
 
 
@@ -28,4 +28,4 @@ include_once PATHCOREINCLUDES .'navbar.inc.php';
 
 
 <!-- //footer -->
-<?php include_once PATHCOREINCLUDES .'footer.inc.php';?>
+<?php include_once TEMPLATE_PATH .'footer.temp.php';?>
